@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポップアップを手動で開く</title>
+</head>
+<body>
+    <h1>SoundUDおもてなしガイド</h1>
+    <p>ボタンをクリックしてポップアップを開きます。</p>
+    
+    <!-- ポップアップを開くボタン -->
+    <button onclick="openPopup()">視聴する</button>
+
+    <script>
+        function openPopup() {
+            window.open(
+                'https://service.soundud.com/multi-trans/Rt3YwBMZdgbm6VvrrAZY', 
+                'popupWindow', 
+                'width=800,height=600,scrollbars=yes'
+            );
+        }
+    </script>
+</body>
+</html>
